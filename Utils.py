@@ -2,7 +2,6 @@ import os
 
 import requests
 from langchain.tools import tool
-#os.environ["GROQ_API_KEY"] = "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"
 api_key=os.getenv("GROQ_API_KEY")
 import json  # Import the JSON module to parse JSON strings
 from langchain_core.agents import AgentFinish
